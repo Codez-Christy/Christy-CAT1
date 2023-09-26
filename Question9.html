@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>SURVEY</h1>
+    <form action="Submit.html">
+     <ul>
+        <li><a href="Submit.html">Submit.html</a></li>
+    </ul> 
+    <div>
+        <label for="Name">Name</label>
+        <input type="text" name="name" id="name">
+    </div>
+    <br> 
+    <div>
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email">
+    </div> 
+    <br>
+    <div>
+        <label for="Age">Age</label>
+        <input type="number" name="number" id="number" min="15" max="100">
+    </div>
+    <br>
+    <div>
+        <label for="Gender">Gender;</label>
+        <label for="Male">Male</label>
+        <input type="radio" name="male" id="male">
+        <label for="Female">Female</label>
+        <input type="radio" name="Female" id="Female">
+        <label for="Other">Other</label>
+        <input type="radio" name="Other" id="Other">
+    </div>
+    <br>
+    <div>
+        <label for="Feedback">Feedback</label>
+        <textarea name="Feedback" id="text" cols="20" rows="4"></textarea>
+    </div>
+    
+   <div>
+    <label for="Hobbies">Hobbies</label>
+    <label for="Hiking">Hiking</label>
+    <input type="checkbox" name="Hiking" id="Hiking">
+    <label for="Reading">Reading</label>
+    <input type="checkbox" name="Reading" id="Reading">
+    <label for="Gaming">Gaming</label>
+    <input type="checkbox" name="Gaming" id="Gaming">
+    <label for="Travelling">Travelling</label>
+    <input type="checkbox" name="Travelling" id="Travelling">
+    <label for="Sports">Sports</label>
+    <input type="checkbox" name="Sports" id="Sports">
+  </div>
+  
+  <div>
+    <label for="rate">Rate your experience</label>
+    <input type="range" name="points" id="points" min="1" max="5">
+  </div>
+  
+  <div>
+    <label for="comment">Comments</label>
+    <textarea name="Comments" id="text" cols="30" rows="10"></textarea>
+  </div>
+  <br>
+  <div>
+    <label for="Submit">Submit</label>
+    <input type="submit" name="submit">
+  </div>
+  <li><a href="http://survey.//com">View Survey results</a></li>
+    </form>
+    
+</body>
+</html>

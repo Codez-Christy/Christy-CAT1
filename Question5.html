@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey form</h1>
+    <p>Fill in the information Below</p>
+
+    <form>
+
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="Name" id="Name"required>
+    </div>
+
+    <div>
+        <label for="Age">Age</label>
+        <input type="number" name="num" id="num" min="10" max="80">
+    </div>
+
+    <div>
+        <label for="Gender">Gender~</label>
+        <label for="Female">Female</label>
+        <input type="Radio" name="female" id="female" Value="yes"required>
+        <label for="Male">Male</label>
+        <input type="Radio" name="Male" id="Male" Value="yes"required>
+    </div>
+
+    <div> 
+        <label for="Programming language">Select your favourite programming language</label>
+        <select name="text" id="text">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Javascript">Javascript</option>
+        </select>
+    </div>
+    
+    <input type="Submit" name="Submit" >
+    </form>
+    
+</body>
+</html>
